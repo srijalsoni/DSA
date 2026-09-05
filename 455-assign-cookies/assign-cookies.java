@@ -7,9 +7,10 @@ class Solution {
         int count = 0;
       while( i< g.length && j < s.length){
         if(s[j] >= g[i]){
+            count++;
             i++;
             j++;
-            count++;
+            
         }else{
             j++;
         }
